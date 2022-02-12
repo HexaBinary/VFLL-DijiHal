@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/hexabinary/Projects/test/test/test.csproj": {}
+  },
+  "projects": {
+    "/Users/hexabinary/Projects/test/test/test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hexabinary/Projects/test/test/test.csproj",
+        "projectName": "test",
+        "projectPath": "/Users/hexabinary/Projects/test/test/test.csproj",
+        "packagesPath": "/Users/hexabinary/.nuget/packages/",
+        "outputPath": "/Users/hexabinary/Projects/test/test/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/hexabinary/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
